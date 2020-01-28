@@ -74,3 +74,8 @@ function posicaoRandomica(){
 
 ```
 
+**3. Criando Tamanhos Randomicos**
+
+**4. Lado A e Lado B**
+
+ou seja a orientacao da imagem olhando ou pra direita ou pra esquerda. 

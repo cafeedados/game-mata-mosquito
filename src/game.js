@@ -4,6 +4,10 @@
  * Game Mata Mosquito
  */
 
+
+
+
+
 //definindo as variaveis no escopo global
 var altura = 0;
 var largura = 0;
@@ -22,6 +26,10 @@ function ajustaTamanhoPalcoJogo() {
 };
 
 ajustaTamanhoPalcoJogo()
+
+
+
+
 
 
 function posicaoRandomica(){
@@ -56,7 +64,7 @@ ja tem um tamanho normal*/
  mosquito.src = '/img/mosca.png';
 
  //para incluir o atributo CSS aplicado ao elemento
- mosquito.className = 'mosquito1';
+ mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio();
 
  /*para jogar ele randomico na pagina, usamos o atributo style e dentro do atributo 
  concatenando com a string px de pixels*/
@@ -68,4 +76,49 @@ ja tem um tamanho normal*/
  //acessando o body da pagina, basicamente adiciona um filho para o body
  document.body.appendChild(mosquito);
 
+ 
 };
+
+
+function tamanhoAleatorio() {
+    /**
+     * Vai gerar numeros de 0 a 2
+     */
+    var classe = Math.floor(Math.random() *3); 
+    console.log(classe)
+
+    /**
+     * Selecionar qual numero sorteado, para fazer um switch
+     */
+    switch(classe){
+        case 0:
+            return 'mosquito1'
+        case 1: 
+            return 'mosquito2'
+        case 2:  
+            return 'mosquito3' 
+    }
+
+    
+
+   
+
+}
+
+/**
+ * 
+ * lado aleatorio da imagem, a diferenca em relacao ao tamanho e que teremos apenas dois resultados
+ * 
+ */
+
+
+ function ladoAleatorio(){
+     var classe2 = Math.floor(Math.random() * 2);
+
+     switch (classe2 ){
+         case 0:
+             return 'ladoA'
+         case 1:
+             return 'ladoB' 
+     }
+ }

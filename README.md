@@ -9,3 +9,8 @@ Passos Seguidos:
 
 **2. Criando as Posicoes randomicas**
 
+**3. Criando Tamanhos Randomicos**
+
+**4. Lado A e Lado B**
+
+**

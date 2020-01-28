@@ -1,2 +1,9 @@
-# game-mata-mosquito
- Game desenvolvido em JavaScript
+# Game Mata Mosquito
+
+
+Game desenvolvido na linguagem JavaScript para pratica e estudo de desenvolvimento. 
+
+
+
+
+ 

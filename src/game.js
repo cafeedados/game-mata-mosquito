@@ -51,9 +51,10 @@ if(document.getElementById('mosquito')){
      */
      
      if (vidas > 3){
+         window.location.href = ('fim_de_jogo.html')
 
-        
-         alert('interromper jogo')
+
+         
      } else {
         document.getElementById('v' + vidas).src="/img/coracao_vazio.png"
         vidas++

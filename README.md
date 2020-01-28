@@ -13,4 +13,10 @@ Passos Seguidos:
 
 **4. Lado A e Lado B**
 
-**
+**5. Criando e Removendo Mosquitos a Cada Ciclo de Tempo**
+
+**6. Criando o Cenario**
+
+**7. Controlando os Pontos de vida**
+
+**8 - Game Over**

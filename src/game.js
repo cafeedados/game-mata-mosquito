@@ -11,6 +11,7 @@
 //definindo as variaveis no escopo global
 var altura = 0;
 var largura = 0;
+var vidas = 1;
 
 /*Essa funcao ira detectar se ha uma alteracao no tamanho da tela 
 para tornar o game resposivo* integrando com o on recize no body
@@ -33,6 +34,36 @@ ajustaTamanhoPalcoJogo()
 
 
 function posicaoRandomica(){
+
+
+/**Remover ID mosquito anterior (caso exista) */
+
+if(document.getElementById('mosquito')){
+    document.getElementById('mosquito').remove();
+
+    /**
+     * selecionar o elemneto alteramos para coracao vazio
+     * pois se o mosquito nao morrer e for removido por essa funcao e 
+     * nao la embaixo onde esta o onclick.
+     * 
+     * criou uma variael global chamada vidas que se inicia em 1 
+     * e atribuida e incrementada logo em seguida
+     */
+     
+     if (vidas > 3){
+
+        
+         alert('interromper jogo')
+     } else {
+        document.getElementById('v' + vidas).src="/img/coracao_vazio.png"
+        vidas++
+
+     };
+     
+  
+};    
+
+
 
 /**
  * Criando as posicoes randomicas
@@ -75,6 +106,12 @@ ja tem um tamanho normal*/
 
  //acessando o body da pagina, basicamente adiciona um filho para o body
  document.body.appendChild(mosquito);
+
+ //atribuit o ID para selecionar o elemento HTML para atuar nele
+ mosquito.id = 'mosquito'
+ mosquito.onclick = function (){
+     this.remove() 
+ };
 
  
 };

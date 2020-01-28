@@ -79,3 +79,10 @@ function posicaoRandomica(){
 **4. Lado A e Lado B**
 
 ou seja a orientacao da imagem olhando ou pra direita ou pra esquerda. 
+
+
+**5. Criando e Removendo Mosquitos a Cada Ciclo de Tempo**
+
+**6. Criando o Cenario**
+
+**7. Controlando os Pontos de vida**

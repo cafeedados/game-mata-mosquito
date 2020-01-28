@@ -20,3 +20,7 @@ Passos Seguidos:
 **7. Controlando os Pontos de vida**
 
 **8 - Game Over**
+
+**9. Adicionando Cronometro**
+
+**10. Aba de Vitoria**

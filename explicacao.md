@@ -86,3 +86,5 @@ ou seja a orientacao da imagem olhando ou pra direita ou pra esquerda.
 **6. Criando o Cenario**
 
 **7. Controlando os Pontos de vida**
+
+**9. Adicionando Cronometro**

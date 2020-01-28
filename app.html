@@ -16,17 +16,18 @@
             <img id="v3" src="/img/coracao_cheio.png">
             
         </div>
-        <div class="cronometro"> Tempo restante: ?
-
-        </div>
+        <div class="cronometro"> Tempo restante: <span id="cronometro"></span></div>
     </div>
    
 
     <script>
+        //ou seja ele vai esperar criar o time e o script
+        document.getElementById('cronometro').innerHTML = tempo;
      //Eu to chamando a funcao posicao randomica a cada 1000 milisegundos
-        setInterval(function(){
+       var criaMosquito = setInterval(function(){
             posicaoRandomica()
         },2000)
+        
     </script>
     
 </body>

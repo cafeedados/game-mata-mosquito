@@ -24,3 +24,5 @@ Passos Seguidos:
 **9. Adicionando Cronometro**
 
 **10. Aba de Vitoria**
+
+**11. Pagina Inicial Game**

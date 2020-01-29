@@ -88,3 +88,7 @@ ou seja a orientacao da imagem olhando ou pra direita ou pra esquerda.
 **7. Controlando os Pontos de vida**
 
 **9. Adicionando Cronometro**
+
+**10. Aba de Vitoria**
+
+**11. Pagina Inicial Game**

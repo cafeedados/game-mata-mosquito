@@ -92,3 +92,5 @@ ou seja a orientacao da imagem olhando ou pra direita ou pra esquerda.
 **10. Aba de Vitoria**
 
 **11. Pagina Inicial Game**
+
+**12. Aplicando o Nivel de Dificuldade Selecionado**

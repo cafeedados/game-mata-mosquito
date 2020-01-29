@@ -26,3 +26,5 @@ Passos Seguidos:
 **10. Aba de Vitoria**
 
 **11. Pagina Inicial Game**
+
+**12. Aplicando o Nivel de Dificuldade Selecionado**

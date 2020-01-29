@@ -14,6 +14,24 @@ var largura = 0;
 var vidas = 1;
 var tempo = 10;
 
+var criaMosquitoTempo = 1500;
+
+var nivel = window.location.search //o search ele recupera o ponto de interrogacao e tudo a direita
+nivel = nivel.replace ('?', ''); //aqui dizemos o caractere que queremos substituir
+
+if (nivel === 'normal') {
+  //1500mmseg
+   criaMosquitoTempo = 1500;
+
+} else if(nivel === 'dificil'){
+    //1000mmseg
+    criaMosquitoTempo = 1000;
+} else if (nivel === 'hard'){
+    //750mmseg 
+    criaMosquitoTempo = 750;
+
+}
+
 /*Essa funcao ira detectar se ha uma alteracao no tamanho da tela 
 para tornar o game resposivo* integrando com o on recize no body
 da aplicacao */

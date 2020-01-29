@@ -6,6 +6,8 @@ function iniciarJogo() {
 
     }
     
+    //usamos a interrogacao para separar a pagina que queremos forcar com o paramentro 
+    window.location.href = 'app.html?' + nivel;
     
 
 };
